@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29E05DB4D31875AF7C8F079F /* Pods_WILLDOM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAB8C1AFE8D64E84CA4A31B /* Pods_WILLDOM.framework */; };
+		4BED65B78E2420F4DF9C99C3 /* Pods_WILLDOMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7DA938078A31CBEB75F3D3 /* Pods_WILLDOMTests.framework */; };
 		521ABD892706A37F00D29AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABD882706A37F00D29AC2 /* AppDelegate.swift */; };
 		521ABD8D2706A37F00D29AC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABD8C2706A37F00D29AC2 /* ViewController.swift */; };
 		521ABD902706A37F00D29AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521ABD8E2706A37F00D29AC2 /* Main.storyboard */; };
@@ -15,6 +17,26 @@
 		521ABDA02706A38100D29AC2 /* WILLDOMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABD9F2706A38100D29AC2 /* WILLDOMTests.swift */; };
 		521ABDAA2706A38100D29AC2 /* WILLDOMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDA92706A38100D29AC2 /* WILLDOMUITests.swift */; };
 		521ABDAC2706A38100D29AC2 /* WILLDOMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDAB2706A38100D29AC2 /* WILLDOMUITestsLaunchTests.swift */; };
+		521ABDBD2706A5AC00D29AC2 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDBC2706A5AC00D29AC2 /* Config.swift */; };
+		521ABDBF2706A5FF00D29AC2 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDBE2706A5FF00D29AC2 /* AnimationFactory.swift */; };
+		521ABDC12706A61F00D29AC2 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDC02706A61F00D29AC2 /* Animator.swift */; };
+		521ABDC32706A64900D29AC2 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDC22706A64900D29AC2 /* helpers.swift */; };
+		521ABDC62706A6C200D29AC2 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDC52706A6C200D29AC2 /* CategoryCell.swift */; };
+		521ABDC82706A6D500D29AC2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDC72706A6D500D29AC2 /* MovieCell.swift */; };
+		521ABDD22706A93A00D29AC2 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDD12706A93A00D29AC2 /* MovieModel.swift */; };
+		521ABDD42706A95D00D29AC2 /* MovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDD32706A95D00D29AC2 /* MovieInteractor.swift */; };
+		521ABDD62706A98400D29AC2 /* MoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDD52706A98400D29AC2 /* MoviePresenter.swift */; };
+		521ABDDA2706A9C500D29AC2 /* MovieProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDD92706A9C500D29AC2 /* MovieProtocol.swift */; };
+		521ABDDC2706A9E000D29AC2 /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDDB2706A9E000D29AC2 /* MovieRouter.swift */; };
+		521ABDDE2706AA0A00D29AC2 /* ListMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDDD2706AA0A00D29AC2 /* ListMovieController.swift */; };
+		521ABDE02706AA2500D29AC2 /* DetailMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDDF2706AA2500D29AC2 /* DetailMovieController.swift */; };
+		521ABDE82706AAAE00D29AC2 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDE72706AAAE00D29AC2 /* VideoModel.swift */; };
+		521ABDEA2706AAD000D29AC2 /* VideoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDE92706AAD000D29AC2 /* VideoInteractor.swift */; };
+		521ABDEC2706AAEF00D29AC2 /* VideoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDEB2706AAEF00D29AC2 /* VideoPresenter.swift */; };
+		521ABDF02706AB1C00D29AC2 /* VideoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDEF2706AB1C00D29AC2 /* VideoProtocol.swift */; };
+		521ABDF22706AB3F00D29AC2 /* VideoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDF12706AB3F00D29AC2 /* VideoRouter.swift */; };
+		521ABDF42706AB5E00D29AC2 /* VideoPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ABDF32706AB5E00D29AC2 /* VideoPlayController.swift */; };
+		F896382DB12049BA533D5ABC /* Pods_WILLDOM_WILLDOMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F0EC9CFBC1CC4783624A67 /* Pods_WILLDOM_WILLDOMUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E2FEE3EF204C5F4251D672F /* Pods-WILLDOM-WILLDOMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WILLDOM-WILLDOMUITests.debug.xcconfig"; path = "Target Support Files/Pods-WILLDOM-WILLDOMUITests/Pods-WILLDOM-WILLDOMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29D570A240825285BD6C0500 /* Pods-WILLDOMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WILLDOMTests.release.xcconfig"; path = "Target Support Files/Pods-WILLDOMTests/Pods-WILLDOMTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FAB8C1AFE8D64E84CA4A31B /* Pods_WILLDOM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WILLDOM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		521ABD852706A37F00D29AC2 /* WILLDOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WILLDOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521ABD882706A37F00D29AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521ABD8C2706A37F00D29AC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,31 @@
 		521ABDA52706A38100D29AC2 /* WILLDOMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WILLDOMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521ABDA92706A38100D29AC2 /* WILLDOMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WILLDOMUITests.swift; sourceTree = "<group>"; };
 		521ABDAB2706A38100D29AC2 /* WILLDOMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WILLDOMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		521ABDBC2706A5AC00D29AC2 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		521ABDBE2706A5FF00D29AC2 /* AnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
+		521ABDC02706A61F00D29AC2 /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		521ABDC22706A64900D29AC2 /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
+		521ABDC52706A6C200D29AC2 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		521ABDC72706A6D500D29AC2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		521ABDD12706A93A00D29AC2 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		521ABDD32706A95D00D29AC2 /* MovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInteractor.swift; sourceTree = "<group>"; };
+		521ABDD52706A98400D29AC2 /* MoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresenter.swift; sourceTree = "<group>"; };
+		521ABDD92706A9C500D29AC2 /* MovieProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProtocol.swift; sourceTree = "<group>"; };
+		521ABDDB2706A9E000D29AC2 /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		521ABDDD2706AA0A00D29AC2 /* ListMovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMovieController.swift; sourceTree = "<group>"; };
+		521ABDDF2706AA2500D29AC2 /* DetailMovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieController.swift; sourceTree = "<group>"; };
+		521ABDE72706AAAE00D29AC2 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		521ABDE92706AAD000D29AC2 /* VideoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInteractor.swift; sourceTree = "<group>"; };
+		521ABDEB2706AAEF00D29AC2 /* VideoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPresenter.swift; sourceTree = "<group>"; };
+		521ABDEF2706AB1C00D29AC2 /* VideoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProtocol.swift; sourceTree = "<group>"; };
+		521ABDF12706AB3F00D29AC2 /* VideoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRouter.swift; sourceTree = "<group>"; };
+		521ABDF32706AB5E00D29AC2 /* VideoPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayController.swift; sourceTree = "<group>"; };
+		5C1707DCB3194DC5EC5A8CD5 /* Pods-WILLDOMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WILLDOMTests.debug.xcconfig"; path = "Target Support Files/Pods-WILLDOMTests/Pods-WILLDOMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6380D95C615C12E90A8455C2 /* Pods-WILLDOM-WILLDOMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WILLDOM-WILLDOMUITests.release.xcconfig"; path = "Target Support Files/Pods-WILLDOM-WILLDOMUITests/Pods-WILLDOM-WILLDOMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A7DA938078A31CBEB75F3D3 /* Pods_WILLDOMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WILLDOMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4AECD5AF7789A66D0B76BA /* Pods-WILLDOM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WILLDOM.debug.xcconfig"; path = "Target Support Files/Pods-WILLDOM/Pods-WILLDOM.debug.xcconfig"; sourceTree = "<group>"; };
+		EC78E08EA38192B2F3BD0095 /* Pods-WILLDOM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WILLDOM.release.xcconfig"; path = "Target Support Files/Pods-WILLDOM/Pods-WILLDOM.release.xcconfig"; sourceTree = "<group>"; };
+		F9F0EC9CFBC1CC4783624A67 /* Pods_WILLDOM_WILLDOMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WILLDOM_WILLDOMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29E05DB4D31875AF7C8F079F /* Pods_WILLDOM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BED65B78E2420F4DF9C99C3 /* Pods_WILLDOMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +120,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F896382DB12049BA533D5ABC /* Pods_WILLDOM_WILLDOMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1DCCC7ECF1BC619A646AE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB8C1AFE8D64E84CA4A31B /* Pods_WILLDOM.framework */,
+				F9F0EC9CFBC1CC4783624A67 /* Pods_WILLDOM_WILLDOMUITests.framework */,
+				6A7DA938078A31CBEB75F3D3 /* Pods_WILLDOMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		521ABD7C2706A37F00D29AC2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +144,8 @@
 				521ABD9E2706A38100D29AC2 /* WILLDOMTests */,
 				521ABDA82706A38100D29AC2 /* WILLDOMUITests */,
 				521ABD862706A37F00D29AC2 /* Products */,
+				54339888AC4E9245ED0124DD /* Pods */,
+				4D1DCCC7ECF1BC619A646AE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +162,11 @@
 		521ABD872706A37F00D29AC2 /* WILLDOM */ = {
 			isa = PBXGroup;
 			children = (
-				521ABD882706A37F00D29AC2 /* AppDelegate.swift */,
+				521ABDBB2706A54F00D29AC2 /* modules */,
+				521ABDBA2706A53E00D29AC2 /* ui */,
+				521ABDB92706A52F00D29AC2 /* utils */,
+				521ABDB82706A52100D29AC2 /* settings */,
 				521ABD8C2706A37F00D29AC2 /* ViewController.swift */,
-				521ABD8E2706A37F00D29AC2 /* Main.storyboard */,
-				521ABD912706A38000D29AC2 /* Assets.xcassets */,
-				521ABD932706A38000D29AC2 /* LaunchScreen.storyboard */,
 				521ABD962706A38000D29AC2 /* Info.plist */,
 			);
 			path = WILLDOM;
@@ -124,6 +189,190 @@
 			path = WILLDOMUITests;
 			sourceTree = "<group>";
 		};
+		521ABDB82706A52100D29AC2 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				521ABD882706A37F00D29AC2 /* AppDelegate.swift */,
+				521ABDBC2706A5AC00D29AC2 /* Config.swift */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		521ABDB92706A52F00D29AC2 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDBE2706A5FF00D29AC2 /* AnimationFactory.swift */,
+				521ABDC02706A61F00D29AC2 /* Animator.swift */,
+				521ABDC22706A64900D29AC2 /* helpers.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		521ABDBA2706A53E00D29AC2 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDC42706A69F00D29AC2 /* movies */,
+				521ABD912706A38000D29AC2 /* Assets.xcassets */,
+				521ABD932706A38000D29AC2 /* LaunchScreen.storyboard */,
+				521ABD8E2706A37F00D29AC2 /* Main.storyboard */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		521ABDBB2706A54F00D29AC2 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDCA2706A8BE00D29AC2 /* videos */,
+				521ABDC92706A8B400D29AC2 /* movies */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		521ABDC42706A69F00D29AC2 /* movies */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDC52706A6C200D29AC2 /* CategoryCell.swift */,
+				521ABDC72706A6D500D29AC2 /* MovieCell.swift */,
+			);
+			path = movies;
+			sourceTree = "<group>";
+		};
+		521ABDC92706A8B400D29AC2 /* movies */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDD02706A8FF00D29AC2 /* entity */,
+				521ABDCF2706A8F400D29AC2 /* interactor */,
+				521ABDCE2706A8EC00D29AC2 /* presenter */,
+				521ABDCD2706A8E000D29AC2 /* protocols */,
+				521ABDCC2706A8D700D29AC2 /* router */,
+				521ABDCB2706A8D100D29AC2 /* view */,
+			);
+			name = movies;
+			sourceTree = "<group>";
+		};
+		521ABDCA2706A8BE00D29AC2 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDE62706AA9700D29AC2 /* entity */,
+				521ABDE52706AA8800D29AC2 /* interactor */,
+				521ABDE42706AA7E00D29AC2 /* presenter */,
+				521ABDE32706AA7000D29AC2 /* protocols */,
+				521ABDE22706AA6700D29AC2 /* router */,
+				521ABDE12706AA5D00D29AC2 /* view */,
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
+		521ABDCB2706A8D100D29AC2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDDD2706AA0A00D29AC2 /* ListMovieController.swift */,
+				521ABDDF2706AA2500D29AC2 /* DetailMovieController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		521ABDCC2706A8D700D29AC2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDDB2706A9E000D29AC2 /* MovieRouter.swift */,
+			);
+			name = router;
+			sourceTree = "<group>";
+		};
+		521ABDCD2706A8E000D29AC2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDD92706A9C500D29AC2 /* MovieProtocol.swift */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
+		521ABDCE2706A8EC00D29AC2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDD52706A98400D29AC2 /* MoviePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		521ABDCF2706A8F400D29AC2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDD32706A95D00D29AC2 /* MovieInteractor.swift */,
+			);
+			name = interactor;
+			sourceTree = "<group>";
+		};
+		521ABDD02706A8FF00D29AC2 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDD12706A93A00D29AC2 /* MovieModel.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		521ABDE12706AA5D00D29AC2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDF32706AB5E00D29AC2 /* VideoPlayController.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		521ABDE22706AA6700D29AC2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDF12706AB3F00D29AC2 /* VideoRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		521ABDE32706AA7000D29AC2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDEF2706AB1C00D29AC2 /* VideoProtocol.swift */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
+		521ABDE42706AA7E00D29AC2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDEB2706AAEF00D29AC2 /* VideoPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		521ABDE52706AA8800D29AC2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDE92706AAD000D29AC2 /* VideoInteractor.swift */,
+			);
+			name = interactor;
+			sourceTree = "<group>";
+		};
+		521ABDE62706AA9700D29AC2 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				521ABDE72706AAAE00D29AC2 /* VideoModel.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		54339888AC4E9245ED0124DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C4AECD5AF7789A66D0B76BA /* Pods-WILLDOM.debug.xcconfig */,
+				EC78E08EA38192B2F3BD0095 /* Pods-WILLDOM.release.xcconfig */,
+				0E2FEE3EF204C5F4251D672F /* Pods-WILLDOM-WILLDOMUITests.debug.xcconfig */,
+				6380D95C615C12E90A8455C2 /* Pods-WILLDOM-WILLDOMUITests.release.xcconfig */,
+				5C1707DCB3194DC5EC5A8CD5 /* Pods-WILLDOMTests.debug.xcconfig */,
+				29D570A240825285BD6C0500 /* Pods-WILLDOMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +380,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521ABDAF2706A38100D29AC2 /* Build configuration list for PBXNativeTarget "WILLDOM" */;
 			buildPhases = (
+				7378B03ED6E097F92ADA81FB /* [CP] Check Pods Manifest.lock */,
 				521ABD812706A37F00D29AC2 /* Sources */,
 				521ABD822706A37F00D29AC2 /* Frameworks */,
 				521ABD832706A37F00D29AC2 /* Resources */,
+				796E9B608382811299FE0BE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +399,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521ABDB22706A38100D29AC2 /* Build configuration list for PBXNativeTarget "WILLDOMTests" */;
 			buildPhases = (
+				3D195529F551E2B8C1CB23CD /* [CP] Check Pods Manifest.lock */,
 				521ABD972706A38100D29AC2 /* Sources */,
 				521ABD982706A38100D29AC2 /* Frameworks */,
 				521ABD992706A38100D29AC2 /* Resources */,
@@ -166,9 +418,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 521ABDB52706A38100D29AC2 /* Build configuration list for PBXNativeTarget "WILLDOMUITests" */;
 			buildPhases = (
+				E71E493C86440263D0373075 /* [CP] Check Pods Manifest.lock */,
 				521ABDA12706A38100D29AC2 /* Sources */,
 				521ABDA22706A38100D29AC2 /* Frameworks */,
 				521ABDA32706A38100D29AC2 /* Resources */,
+				C8949ED5D8A49CB8C50282F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,13 +504,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D195529F551E2B8C1CB23CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WILLDOMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7378B03ED6E097F92ADA81FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WILLDOM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		796E9B608382811299FE0BE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WILLDOM/Pods-WILLDOM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WILLDOM/Pods-WILLDOM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WILLDOM/Pods-WILLDOM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8949ED5D8A49CB8C50282F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WILLDOM-WILLDOMUITests/Pods-WILLDOM-WILLDOMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WILLDOM-WILLDOMUITests/Pods-WILLDOM-WILLDOMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WILLDOM-WILLDOMUITests/Pods-WILLDOM-WILLDOMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E71E493C86440263D0373075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WILLDOM-WILLDOMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		521ABD812706A37F00D29AC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521ABDD22706A93A00D29AC2 /* MovieModel.swift in Sources */,
+				521ABDC12706A61F00D29AC2 /* Animator.swift in Sources */,
+				521ABDDE2706AA0A00D29AC2 /* ListMovieController.swift in Sources */,
+				521ABDE82706AAAE00D29AC2 /* VideoModel.swift in Sources */,
 				521ABD8D2706A37F00D29AC2 /* ViewController.swift in Sources */,
+				521ABDE02706AA2500D29AC2 /* DetailMovieController.swift in Sources */,
+				521ABDC82706A6D500D29AC2 /* MovieCell.swift in Sources */,
+				521ABDD62706A98400D29AC2 /* MoviePresenter.swift in Sources */,
+				521ABDEA2706AAD000D29AC2 /* VideoInteractor.swift in Sources */,
+				521ABDDC2706A9E000D29AC2 /* MovieRouter.swift in Sources */,
+				521ABDBF2706A5FF00D29AC2 /* AnimationFactory.swift in Sources */,
+				521ABDF02706AB1C00D29AC2 /* VideoProtocol.swift in Sources */,
+				521ABDF22706AB3F00D29AC2 /* VideoRouter.swift in Sources */,
+				521ABDD42706A95D00D29AC2 /* MovieInteractor.swift in Sources */,
+				521ABDEC2706AAEF00D29AC2 /* VideoPresenter.swift in Sources */,
+				521ABDF42706AB5E00D29AC2 /* VideoPlayController.swift in Sources */,
+				521ABDC62706A6C200D29AC2 /* CategoryCell.swift in Sources */,
+				521ABDDA2706A9C500D29AC2 /* MovieProtocol.swift in Sources */,
 				521ABD892706A37F00D29AC2 /* AppDelegate.swift in Sources */,
+				521ABDBD2706A5AC00D29AC2 /* Config.swift in Sources */,
+				521ABDC32706A64900D29AC2 /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,31 +800,36 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
 		521ABDB02706A38100D29AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4AECD5AF7789A66D0B76BA /* Pods-WILLDOM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5RWV76S27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WILLDOM/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "WILLDOM ";
+				INFOPLIST_KEY_CFBundleDisplayName = WILLDOM;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.willdom.app.WILLDOM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willdom.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -458,34 +839,41 @@
 		};
 		521ABDB12706A38100D29AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC78E08EA38192B2F3BD0095 /* Pods-WILLDOM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5RWV76S27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WILLDOM/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "WILLDOM ";
+				INFOPLIST_KEY_CFBundleDisplayName = WILLDOM;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.willdom.app.WILLDOM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willdom.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
 		521ABDB32706A38100D29AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1707DCB3194DC5EC5A8CD5 /* Pods-WILLDOMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +898,7 @@
 		};
 		521ABDB42706A38100D29AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D570A240825285BD6C0500 /* Pods-WILLDOMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +923,7 @@
 		};
 		521ABDB62706A38100D29AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2FEE3EF204C5F4251D672F /* Pods-WILLDOM-WILLDOMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +946,7 @@
 		};
 		521ABDB72706A38100D29AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6380D95C615C12E90A8455C2 /* Pods-WILLDOM-WILLDOMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

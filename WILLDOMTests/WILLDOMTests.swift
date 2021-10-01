@@ -9,25 +9,26 @@ import XCTest
 @testable import WILLDOM
 
 class WILLDOMTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    override func setUp() {
+        
+       
+        
     }
+    
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testLoadMovie(){
+        let vcmovie = MovieRouter.createMovieModule()
+        let _ = vcmovie.view
+        vcmovie.moviePresenter?.interactor?.fetchMovie(type: Config.popular)
+        XCTAssertNotNil( vcmovie.arrayMovies,"Error en Carga de Datos")
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testLoadVideo(){
+        let vcvideo = VideoRouter.createVideoModule()
+        let _ = vcvideo.view
+        vcvideo.videoPresenter?.interactor?.getUrlVideo(id: "1221")
+        XCTAssertNotNil(vcvideo.array)
     }
 
 }

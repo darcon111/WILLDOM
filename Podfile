@@ -11,12 +11,21 @@ target 'WILLDOM' do
   pod 'Player', '~> 0.13.0'
   pod 'SKActivityIndicatorView'
   pod 'AlamofireObjectMapper', '~> 5.2'
-  pod 'MaterialComponents'
   pod 'Randient'
   pod 'AlamofireImage', '~> 3.6'
   pod 'YouTubePlayer'
   pod 'SwiftMessages'
-
+  pod 'MaterialComponents'
+  pod 'MDFInternationalization'
+  
+  
+  post_install do |installer|
+  installer.pods_project.targets.each do |target|
+  target.build_configurations.each do |config|
+  config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+  end
+  end
+  end
   target 'WILLDOMTests' do
     inherit! :search_paths
     # Pods for testing
